@@ -1,4 +1,4 @@
-* {
+</div>* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,82 +12,6 @@ body {
 .Textogrande {
     font-size: 2em;
     }
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    background-color: rgba(189, 194, 189, 0.763);
-}
-nav li {
-    display: inline-block;
-}
-nav a {
-    text-decoration: none;
-    color: rgba(77, 136, 59, 0.863);
-    width: 10em;
-    display: block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.Contenedor1 {
-    display: flex;
-    padding-top: 50px;
-}
-.Imagen1 {
-    width: 25em;
-    height: 25em;
-
-}
-.Texto1 {
-    background-color: brown;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 50px;
-    padding-left: 15px;
-}
-.Contenedor2 {
-    display: flex;
-}
-.Imagen2 {
-    width: 25em;
-    height: 30em;
-}
-
-.Texto2 {
-    background-color: yellowgreen;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding-left: 15px;
-    padding-top: 15px;
-}
-.Contenedor3 {
-    display: flex;
-}
-.Imagen3 {
-    width: 80em;
-    height: 33em;
-
-}
-.Texto3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding-left: 15px;
-    padding-top: 15px;
-    background-color: antiquewhite;
-}
-.Contenedor4 {
-    display: flex;
-}
-.Imagen4 {
-    width: 40em;
-    height: 25em;
-}
-
-.Texto4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding-left: 15px;
-    padding-top: 15px;
-    background-color: goldenrod; 
-}
 
 .Banner2 {
     width: 1300px; height: 200px;
@@ -187,6 +111,8 @@ text-align: center;
     font-weight: 400;
     margin: 0px 5px;
 }
+
+
 @media (max-width:700px){
     .footerContenedor ul{
         flex-direction: column;
